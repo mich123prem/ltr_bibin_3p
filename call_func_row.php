@@ -64,7 +64,7 @@ if( !($relevanceValueTrueFalse) ){ /*Assessor did not select all relevance grade
         $i = $_GET['previous'];
     }
     if (isset($_GET['next'])) {
-        $i = $_GET['next'];
+        $i = $_GET['next']; 
     }
 }
 $_SESSION['firstInScreen']=$i;
