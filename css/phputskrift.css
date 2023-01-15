@@ -1,0 +1,54 @@
+/*RAMME INN PHP-utskrift*/
+.phputskrift 
+{ 
+  text-align:left; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em; 
+  font-weight: bold; 
+  background-color: #FFFFFF;
+  color: #000000 ;
+  padding-top: 5px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; 
+  margin-top: 3px; margin-right: 3px;	margin-bottom: 3px; margin-left: 3px; 
+  border-style: ridge; border-top-width: 10px; border-right-width: thin;
+  border-bottom-width: thin; border-left-width: thin; 
+  line-height: 20px
+  }
+
+/*.phputskrift_liten 
+{ 
+  text-align:center; 
+  font-family: "Courier New", Courier, mono; 
+  font-size: 0.9em; 
+  font-weight: bold; 
+  color: #000000 ; 
+  padding-top: 5px; 
+  padding-bottom: 3px; 
+  padding-right: 5px; 
+  padding-left: 5px; 
+  margin-top: 3px; 
+  margin-right: 3px; 
+  margin-bottom: 3px; 
+  margin-left: 3px; 
+  border-style: ridge; 
+  border-top-width: 10px; 
+  border-right-width: thin; 
+  border-bottom-width: thin; 
+  border-left-width: thin; 
+  line-height: 20px
+  }*/
+
+.phputskriftstor 
+{ font-family: "Courier New", Courier, monospace; 
+  font-size: 2em; 
+  font-weight: bold; 
+  background-color:#FFFFFF;
+  color: #000000 ; 
+  }
+
+.kommentarer
+{
+
+  display:none;
+
+  }
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3218a5e3-cf6a-4d39-80a8-315d99e0cb30" name="ltr-abi" url="https://ltr-abi.no/">
+        <fileTransfer rootFolder="/home/michaelp" accessType="SFTP" host="ltr-abi.no" port="22" sshConfigId="e51210ec-3417-4ded-a0f7-69e653d3c8b1" sshConfig="ltr-abi" keyPair="true" />
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+/*KODE PHP-PROGRAMMER*/
+.reserved 
+{  
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.0em; 
+  font-weight: bold; 
+  color: #000099
+  }
+.identifier 
+{  
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.0em; 
+  font-style: normal; 
+  font-weight: bold; 
+  color:#FF0000 
+  }
+.metodekall 
+{  
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.0em; 
+  font-weight: bold; 
+  color: #000000;
+  }
+
+/*kommentar i blått*/
+.phpkommentar 
+{ 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 1em; 
+  font-style: normal; 
+  font-weight: bold; 
+  color: #0066FF ;
+  line-height: 1.3em;
+  }
+
+.metodedef 
+{  
+	font-family: "serif", "Courier New", Courier, mono; font-size: 1.0em;
+	font-style: normal; 			
+	font-weight: bold; color:#FF0000 
+}
+
+
+.phpliteral 
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color:#99CCFF ; 
+  font-weight: bold;
+  }
+
+
+.phpgronn 
+{  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 1.1em; 
+  font-style: normal; 
+  font-weight: bold; 
+  color: #009966
+  }
+

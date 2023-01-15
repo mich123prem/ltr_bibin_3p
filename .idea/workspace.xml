@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82c3ad10-e13e-4c35-9941-824a6b2a6455" name="Default Changelist" comment="First from PHPSTORM">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ltr_bibin_4p.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.user.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call_func_row.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/db_output.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/erdiag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/htmlkoding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/karformat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/linenumbers-12-14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/maintable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/oppgavefasit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/phpprog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/phputskrift.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/programvisning.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/spesstil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic/query.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic/settings.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/endform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/form_row.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/screen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memcache.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memcache/memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/document.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/qd.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/qry.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/users.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendQueryGetHits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pub_work.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updateRelevance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/test.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../ltr_bibin\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" hide_empty_superglobals="false" listening_started="true" show_pre_config_in_remote_debug="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="fa9f9e3e-8938-44e5-80e1-169498c96132" name="localhost">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/bibin/ltr_bibin" />
+        </path_mappings>
+      </server>
+      <server host="www.bing.com" id="6a8270e2-03ab-4a13-9e5d-a92a02fee7b4" name="www.bing.com" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="C:/Users/michaelp/sites/ltr_bibin" />
+        </path_mappings>
+      </server>
+      <server host="ltr-abi.no" id="b2a62341-f9ae-4b57-97d1-e5af34733864" name="ltr-abi.no" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/michaelp/ltr_bibin" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" deployment_server_id="3218a5e3-cf6a-4d39-80a8-315d99e0cb30" path_to_validation_script="C:\Users\michaelp\Downloads" selected_validation_type="REMOTE" web_path_to_validation_script="http://ltr-abi.no:80" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="michaelp@bibin.oslomet.no:22 password">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1p49n89Zk7vNHSPwk2qZOJfDF4z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "C:/Users/michaelp/sites/ltr_bibin_3p/.git/refs/remotes/origin/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\michaelp\sites\ltr_bibin_4p" />
+      <recent name="C:\Users\michaelp\sites\ltr_bibin_4p\test" />
+      <recent name="C:\Users\michaelp\sites\ltr_bibin_4p\html" />
+      <recent name="C:\Users\michaelp\sites\ltr_bibin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\michaelp\sites\ltr_bibin_4p\test" />
+      <recent name="C:\Users\michaelp\sites\ltr_bibin" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="incoming connnection from xdebug" />
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Page.lokal">
+    <configuration name="C:\Users\michaelp\sites\ltr_bibin\index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine workingDirectory="$PROJECT_DIR$">
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="michaelp@bibin.oslomet.no:22 password" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="ltr-abi" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" editBeforeRun="true" filter_connections="NOT_FILTER" server_name="ltr-abi.no">
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <configuration name="lokaltest" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/test/">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Remote Debug.ltr-abi" />
+      <item itemvalue="PHP Script.C:\Users\michaelp\sites\ltr_bibin\index.php" />
+      <item itemvalue="PHP Web Page.lokal" />
+      <item itemvalue="PHP Web Page.lokaltest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82c3ad10-e13e-4c35-9941-824a6b2a6455" name="Default Changelist" comment="" />
+      <created>1614431659582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614431659582</updated>
+      <workItem from="1614431660665" duration="363000" />
+      <workItem from="1614441446523" duration="6015000" />
+      <workItem from="1614447506124" duration="4400000" />
+      <workItem from="1614459147351" duration="6495000" />
+      <workItem from="1614524667982" duration="3011000" />
+      <workItem from="1614538079265" duration="655000" />
+      <workItem from="1614538762577" duration="7320000" />
+      <workItem from="1614546103089" duration="2676000" />
+      <workItem from="1614618376838" duration="3867000" />
+      <workItem from="1614685951760" duration="6659000" />
+      <workItem from="1614764342734" duration="7166000" />
+      <workItem from="1614802866955" duration="6402000" />
+      <workItem from="1614878294038" duration="2640000" />
+      <workItem from="1614933881813" duration="1195000" />
+      <workItem from="1615058970068" duration="7003000" />
+      <workItem from="1615365063813" duration="22137000" />
+      <workItem from="1615470431243" duration="4019000" />
+      <workItem from="1618906323106" duration="1623000" />
+      <workItem from="1625412468272" duration="90000" />
+      <workItem from="1625599568019" duration="64000" />
+      <workItem from="1633800448746" duration="4730000" />
+      <workItem from="1633869495148" duration="8033000" />
+      <workItem from="1633889204715" duration="1221000" />
+      <workItem from="1633958306927" duration="1057000" />
+      <workItem from="1634134189463" duration="7910000" />
+      <workItem from="1634191371337" duration="3535000" />
+      <workItem from="1634210465395" duration="1465000" />
+      <workItem from="1634398289246" duration="5985000" />
+      <workItem from="1634405802457" duration="453000" />
+      <workItem from="1634406438336" duration="15075000" />
+      <workItem from="1634649163522" duration="2101000" />
+      <workItem from="1634888255866" duration="647000" />
+      <workItem from="1635146626217" duration="3896000" />
+      <workItem from="1635255881255" duration="1764000" />
+      <workItem from="1635862894911" duration="9007000" />
+      <workItem from="1635930989348" duration="1646000" />
+      <workItem from="1636016116321" duration="384000" />
+      <workItem from="1636982635689" duration="7497000" />
+      <workItem from="1637056303907" duration="18394000" />
+      <workItem from="1637092547591" duration="5042000" />
+      <workItem from="1637138111604" duration="1938000" />
+      <workItem from="1637228216785" duration="1777000" />
+      <workItem from="1637315703239" duration="1883000" />
+      <workItem from="1638638335651" duration="594000" />
+      <workItem from="1648446462030" duration="1207000" />
+      <workItem from="1650902265020" duration="1095000" />
+      <workItem from="1651057441193" duration="2558000" />
+      <workItem from="1651068093187" duration="5255000" />
+      <workItem from="1651089847986" duration="1136000" />
+      <workItem from="1651124303124" duration="6103000" />
+      <workItem from="1651999405078" duration="3237000" />
+      <workItem from="1667737780108" duration="1645000" />
+      <workItem from="1667847523364" duration="727000" />
+      <workItem from="1667891484694" duration="2103000" />
+      <workItem from="1667978586547" duration="548000" />
+      <workItem from="1667986583777" duration="1539000" />
+      <workItem from="1668080026891" duration="1133000" />
+      <workItem from="1668155708377" duration="3443000" />
+      <workItem from="1668166020590" duration="1878000" />
+      <workItem from="1668257324248" duration="12202000" />
+      <workItem from="1668355679859" duration="4252000" />
+      <workItem from="1668598324382" duration="10853000" />
+      <workItem from="1668618005292" duration="127000" />
+      <workItem from="1668634536803" duration="17565000" />
+      <workItem from="1668755740761" duration="3478000" />
+      <workItem from="1668866366565" duration="16156000" />
+      <workItem from="1668940993496" duration="25156000" />
+      <workItem from="1669031289171" duration="2367000" />
+      <workItem from="1669045154204" duration="15332000" />
+      <workItem from="1669097051643" duration="4366000" />
+      <workItem from="1669888719049" duration="1988000" />
+      <workItem from="1669892295594" duration="1875000" />
+      <workItem from="1669907984368" duration="91000" />
+      <workItem from="1672837574510" duration="300000" />
+      <workItem from="1673264528847" duration="1752000" />
+      <workItem from="1673327624146" duration="1349000" />
+      <workItem from="1673350436849" duration="7977000" />
+      <workItem from="1673427872288" duration="7038000" />
+      <workItem from="1673788560976" duration="2270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First from PHPSTORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="First from PHPSTORM" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qry.inc.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/document.inc.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qry.inc.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qry.inc.php</url>
+          <line>105</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qd.inc.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qd.inc.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qd.inc.php</url>
+          <line>84</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/elastic/settings.inc.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/elastic/settings.inc.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/elastic/query.inc.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qry.inc.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql/qd.inc.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/call_func_row.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/call_func_row.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/mysql.inc.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/sendQueryGetHits.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/call_func_row.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/call_func_row.php</url>
+          <line>90</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/updateRelevance.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
+          <line>135</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
+          <line>103</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
+          <line>217</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/html/screen.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PhpWebAppRunConfigurationType">
+        <watch expression="$_SESSION['hitHash']" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

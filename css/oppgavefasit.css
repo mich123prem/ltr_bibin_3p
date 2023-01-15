@@ -1,0 +1,73 @@
+/*VISNING for OPPGAVE og FASIT*/
+
+.oppgaver H1 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 1.8em;
+  line-height: 1.5em;
+  }
+
+.fasit 
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #CC33FF; 
+  font-weight: bold 
+}
+
+
+
+
+/*FORMATTERE OPPGAVE TEKSTER*/
+
+.oppgaver
+{}
+.oppgaver ol li
+{
+  list-style-type:decimal;
+  font-size:1.2em;
+  font-weight:bold;
+  }
+.oppgaver ol li ul li
+{
+  list-style-type:circle;
+  font-size:1.0em;
+  }
+.oppgaver ol li ol li
+{
+
+  list-style-type:upper-alpha;
+  font-size:1.0em;
+  font-weight:normal;
+  }
+.oppgaver ol li ol li ul li
+{
+  list-style-type:circle;
+  font-size:1.0em;
+  }
+.oppgaver ol li ol li ol li
+{
+  list-style-type:decimal;
+  font-size:1.0em;
+  }
+.oppgaver ol ol ol ul li
+{
+  list-style-type:disc;
+  font-size:1.0em;
+  }
+
+.phpkodeboks_oppg 
+{ 
+  border-style: solid; 
+  border-top-width: thin; 
+  border-right-width: thin; 
+  border-bottom-width: thin; 
+  border-left-width: thin; 
+  width: auto; 
+  background-color: #CCCCCC; 
+  line-height: 1.5em;
+  font-weight:normal;
+  font-size:0.99em;
+  }
+

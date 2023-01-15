@@ -1,0 +1,80 @@
+
+/*HTML-KODING*/
+
+
+.htmlkilde 
+{
+  
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 0.95em; 
+  font-weight: normal; 
+  color: #000000 ; 
+
+  padding-top: 5px; 
+  padding-bottom: 3px; 
+  padding-right: 5px; 
+  padding-left: 5px; 
+  margin-top: 3px; 
+  margin-right: 3px; 
+  margin-bottom: 3px; 
+  margin-left: 3px; 
+  
+  border-top-color:#0066CC;
+  border-left-color:#0066CC;
+  border-right-color:#0066CC;
+  border-bottom-color:#0066CC;
+  
+  border-top-style:dashed;
+  border-style:dotted;
+  border-top-width: 10px; 
+  border-right-width: thin; 
+  border-bottom-width: thin; 
+  border-left-width: thin; 
+  line-height: 20px;
+}
+
+.elementnavn 
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.0em ; 
+  background-color: #FF33FF; 
+  font-weight: bold 
+  }
+.elementtype 
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #FFFF00; 
+  font-weight: bold 
+  }
+.tag 
+{ 
+  color: #000000; 
+  font-size: 1.0em ; 
+  font-weight: bold; 
+  color:#780000 
+  }
+
+
+fieldset{
+	/*position:relative;*/
+	border:solid;
+	border-color:#000000;
+	border-width:thin;
+}
+
+legend {
+	font-size:14px;
+	font-weight:bold;
+	width:auto;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+label {
+font-size:12px;
+font-style:oblique;
+}

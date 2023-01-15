@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="prog.css" />
+  <title>Relevance Assessment</title>
+</head>
+
+<body>
+<h2>Søk:"Trolls "</h2>            <form action="updateRelevance.php">
+  <input type="hidden" name="user" value="1"/>
+
+  <table id="presentasjon">
+    <tr>    <th class="nesteforrige undisplayed">
+      Forrige
+    </th>
+      <!-- <th>&nbsp;&nbsp;&nbsp;Søk&nbsp;&nbsp;&nbsp;</th>-->
+      <th class="innhold">Omslagbilde </th>
+      <th class="innhold">Bok-info</th>
+      <th class="innhold">Din vurdering</th>
+      <th class="nesteforrige">Neste</th>
+    </tr>
+    <tr>        <td class="undisplayed">
+      <button class="undisplayed" type="submit" name="previous" value="-4">forrige treff<br/> (nr. -3)</button>
+    </td>
+      <!--<td style="padding:10px;white-space:nowrap">"Trolls "</td>-->
+      <td class="innhold">		<img src="https://deichman.no/api/images/resize/200/cover-images/p3ba295f56d1ecd9cfedef347b7438f9a.jpg" alt="book_cover"/></td>
+      <td class="infocolumn innhold"><span class="sterk">Tittel:</span> Duo<br/>
+        <hr/><span class="sterk">Forfatter:</span>no author<br/>
+        <hr/>
+        <span class="sterk">Sjanger</span>:Ikke oppgitt
+        <hr/>
+        <span class="sterk">Målgruppe</span>:Voksne
+        <br/>
+        <hr/>
+        <span class="sterk">Språk</span>:Ikke oppgitt
+        <br/>
+        <hr/><span class="sterk">Format</span>:Musikkopptak
+        <hr/><span class="sterk">utgitt</span>:1994
+      </td>
+      <td class="innhold"><!-- radioknapper -->
+        <table class="sentrer width100"  >
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_wf877f6a3d282cf712b8a3392ff83abe7Musikkopptak_1" value="0" id="id_0"          checked="checked"/>
+                <!--non_relevant--> Ikke relevant
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_wf877f6a3d282cf712b8a3392ff83abe7Musikkopptak_1" value="1" id="id_1"  />
+                <!--non_relevant--> Delvis relevant
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_wf877f6a3d282cf712b8a3392ff83abe7Musikkopptak_1" value="2" id="id_2"  />
+                <!-- highly_relevant --> Noe sånt, ja!!
+              </label></td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_wf877f6a3d282cf712b8a3392ff83abe7Musikkopptak_1" value="-1" id="id_3"  />
+                <!--
+                 --> Vet ikke!!
+              </label>
+            </td>
+          </tr>
+          <input class="skjul"
+                 type="radio" name="rn_609_wf877f6a3d282cf712b8a3392ff83abe7Musikkopptak_1" value="hidden" id="id_4"
+
+          />
+        </table> <!-- radioknapper for vurdering -->
+
+
+      </td>
+      <td class="undisplayed">
+        <!--<button class="undisplayed" type="submit" name="next" value="4">neste treff <br/> (nr. 5 av 20)</button>-->
+      </td>	</tr>
+
+  </table>
+  <table id="presentasjon">
+    <tr>    <th class="nesteforrige undisplayed">
+      Forrige
+    </th>
+      <!-- <th>&nbsp;&nbsp;&nbsp;Søk&nbsp;&nbsp;&nbsp;</th>-->
+      <th class="innhold">Omslagbilde </th>
+      <th class="innhold">Bok-info</th>
+      <th class="innhold">Din vurdering</th>
+      <th class="nesteforrige">Neste</th>
+    </tr>
+    <tr>        <td class="undisplayed">
+      <button class="undisplayed" type="submit" name="previous" value="-4">forrige treff<br/> (nr. -3)</button>
+    </td>
+      <!--<td style="padding:10px;white-space:nowrap">"Trolls "</td>-->
+      <td class="innhold">		<img src="test.png" alt="book_cover"/></td>
+      <td class="infocolumn innhold"><span class="sterk">Tittel:</span> Contes de Norvège : trolls<br/>
+        <hr/><span class="sterk">Forfatter:</span>no author<br/>
+        <hr/>
+        <span class="sterk">Sjanger</span>:Eventyr
+        <hr/>
+        <span class="sterk">Målgruppe</span>:Barn og ungdom
+        <br/>
+        <hr/>
+        <span class="sterk">Språk</span>:Fransk
+        <br/>
+        <hr/><span class="sterk">Format</span>:Lydbok
+        <hr/><span class="sterk">utgitt</span>:1995
+      </td>
+      <td class="innhold"><!-- radioknapper -->
+        <table class="sentrer width100"  >
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_wcd4ef4e2b78e183094ca653a5710aa7dLydbok_1" value="0" id="id_0"  />
+                <!--non_relevant--> Ikke relevant
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_wcd4ef4e2b78e183094ca653a5710aa7dLydbok_1" value="1" id="id_1"          checked="checked"/>
+                <!--non_relevant--> Delvis relevant
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_wcd4ef4e2b78e183094ca653a5710aa7dLydbok_1" value="2" id="id_2"  />
+                <!-- highly_relevant --> Noe sånt, ja!!
+              </label></td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_wcd4ef4e2b78e183094ca653a5710aa7dLydbok_1" value="-1" id="id_3"  />
+                <!--
+                 --> Vet ikke!!
+              </label>
+            </td>
+          </tr>
+          <input class="skjul"
+                 type="radio" name="rn_609_wcd4ef4e2b78e183094ca653a5710aa7dLydbok_1" value="hidden" id="id_4"
+
+          />
+        </table> <!-- radioknapper for vurdering -->
+
+
+      </td>
+      <td class="undisplayed">
+        <!--<button class="undisplayed" type="submit" name="next" value="4">neste treff <br/> (nr. 5 av 20)</button>-->
+      </td>	</tr>
+
+  </table>
+  <table id="presentasjon">
+    <tr>    <th class="nesteforrige undisplayed">
+      Forrige
+    </th>
+      <!-- <th>&nbsp;&nbsp;&nbsp;Søk&nbsp;&nbsp;&nbsp;</th>-->
+      <th class="innhold">Omslagbilde </th>
+      <th class="innhold">Bok-info</th>
+      <th class="innhold">Din vurdering</th>
+      <th class="nesteforrige">Neste</th>
+    </tr>
+    <tr>        <td class="undisplayed">
+      <button class="undisplayed" type="submit" name="previous" value="-4">forrige treff<br/> (nr. -3)</button>
+    </td>
+      <!--<td style="padding:10px;white-space:nowrap">"Trolls "</td>-->
+      <td class="innhold">		<img src="https://deichman.no/api/images/resize/200/cover-images/p624293712550.jpg" alt="book_cover"/></td>
+      <td class="infocolumn innhold"><span class="sterk">Tittel:</span> Trolls<br/>
+        <hr/><span class="sterk">Forfatter:</span>no author<br/>
+        <hr/>
+        <span class="sterk">Sjanger</span>:Ikke oppgitt
+        <hr/>
+        <span class="sterk">Målgruppe</span>:3-5 år;6-8 år;Barn og ungdom
+        <br/>
+        <hr/>
+        <span class="sterk">Språk</span>:Norsk (bokmål)
+        <br/>
+        <hr/><span class="sterk">Format</span>:Bok
+        <hr/><span class="sterk">utgitt</span>:2016
+      </td>
+      <td class="innhold"><!-- radioknapper -->
+        <table class="sentrer width100"  >
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_w186160031478Bok_1" value="0" id="id_0"  />
+                <!--non_relevant--> Ikke relevant
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_w186160031478Bok_1" value="1" id="id_1"  />
+                <!--non_relevant--> Delvis relevant
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_w186160031478Bok_1" value="2" id="id_2"          checked="checked"/>
+                <!-- highly_relevant --> Noe sånt, ja!!
+              </label></td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_w186160031478Bok_1" value="-1" id="id_3"  />
+                <!--
+                 --> Vet ikke!!
+              </label>
+            </td>
+          </tr>
+          <input class="skjul"
+                 type="radio" name="rn_609_w186160031478Bok_1" value="hidden" id="id_4"
+
+          />
+        </table> <!-- radioknapper for vurdering -->
+
+
+      </td>
+      <td class="undisplayed">
+        <!--<button class="undisplayed" type="submit" name="next" value="4">neste treff <br/> (nr. 5 av 20)</button>-->
+      </td>	</tr>
+
+  </table>
+  <table id="presentasjon">
+    <tr>    <th class="nesteforrige undisplayed">
+      Forrige
+    </th>
+      <!-- <th>&nbsp;&nbsp;&nbsp;Søk&nbsp;&nbsp;&nbsp;</th>-->
+      <th class="innhold">Omslagbilde </th>
+      <th class="innhold">Bok-info</th>
+      <th class="innhold">Din vurdering</th>
+      <th class="nesteforrige">Neste</th>
+    </tr>
+    <tr>        <td class="undisplayed">
+      <button class="undisplayed" type="submit" name="previous" value="-4">forrige treff<br/> (nr. -3)</button>
+    </td>
+      <!--<td style="padding:10px;white-space:nowrap">"Trolls "</td>-->
+      <td class="innhold">		<img src="test.png" alt="book_cover"/></td>
+      <td class="infocolumn innhold"><span class="sterk">Tittel:</span> Trolls<br/>
+        <hr/><span class="sterk">Forfatter:</span>no author<br/>
+        <hr/>
+        <span class="sterk">Sjanger</span>:Ikke oppgitt
+        <hr/>
+        <span class="sterk">Målgruppe</span>:Barn og ungdom
+        <br/>
+        <hr/>
+        <span class="sterk">Språk</span>:Norsk (bokmål);Engelsk
+        <br/>
+        <hr/><span class="sterk">Format</span>:Film
+        <hr/><span class="sterk">utgitt</span>:2016
+      </td>
+      <td class="innhold"><!-- radioknapper -->
+        <table class="sentrer width100"  >
+          <tr>
+            <td class="radiotd">
+
+                  <input class="vurderingsradio venstre" type="radio"  name="rn_609_w120591364239Film_1" value="0" id="id_0_rn_609_w120591364239Film_1"  />
+              <label class="hoyreflyt">Ikke relevant</label>
+                <!--non_relevant-->
+
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <label>
+                <input class="vurderingsradio" type="radio"  name="rn_609_w120591364239Film_1" value="1" id="id_1"  />
+                <!--non_relevant--> Delvis relevant
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_w120591364239Film_1" value="2" id="id_2"  />
+                <!-- highly_relevant --> Noe sånt, ja!!
+              </label></td>
+          </tr>
+          <tr>
+            <td>
+              <label>
+                <input class="vurderingsradio" type="radio" name="rn_609_w120591364239Film_1" value="-1" id="id_3"          checked="checked"/>
+                <!--
+                 --> Vet ikke!!
+              </label>
+            </td>
+          </tr>
+          <input class="skjul"
+                 type="radio" name="rn_609_w120591364239Film_1" value="hidden" id="id_4"
+
+          />
+        </table> <!-- radioknapper for vurdering -->
+
+
+      </td>
+      <td><button type="submit" name="next" value="4">neste treff <br/> (nr. 5 av 20)</button></td>	</tr>
+
+  </table>
+</form >
+<div class="inline storpadding venstre" > <a href="index.php?user=1">Tilbake til dine søk</a>  </div>
+<div class="inline storpadding hoyreflyt">
+  <div ><span class="sterk">Ikke relevant</span>: Svarer definitivt ikke på søket </div>
+  <!--<div ><span class="sterk">Ikke helt</span> : (Kanhende... ville kanskje sett på den) </div>-->
+  <div ><span class="sterk">Delvis relevant</span>: (Kanskje... men ville sikkert sett på den) </div>
+  <!--<div ><span class="sterk">Nesten! ...men</span>: (... For eksempel: ville foretrukket et annet format,<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en annen bok i samme serie, eller noe sånt. )</div>-->
+  <div > <span class="sterk">Relevant!!</span>: Merk: det kan bli flere som passer like bra ...</div>
+</div>
+
+</div>

@@ -1,0 +1,38 @@
+/*PHPMYADMIN Data Directory*/
+.erdiag table {
+	border:medium solid;
+	border-collapse:collapse;
+	width: 10em;
+}
+.erdiag td{
+	border:none; 
+}
+.erdiag th{
+	border-bottom:medium solid; 
+}
+td.fremmed{
+font-style:italic;
+}
+tr.fremmed{
+font-style:italic;
+}
+
+.fremmed{
+font-style:italic;
+}
+.primaer{
+font-weight:bold;
+text-decoration:underline;
+}
+tr.ikkeibruk{
+display:none;
+}
+tr.veldigfaa{
+display:none;
+}
+tr.ignoreres{
+display:none;
+}
+.ikkewrap{
+white-space:nowrap;
+}

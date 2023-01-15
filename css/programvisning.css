@@ -1,0 +1,87 @@
+/*HJELPEKODE FOR PHP-PROGRAMM-VISNING*/
+/*RAMME INN PHP-kode*/
+.phpkode 
+{ 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 16px; 
+  font-style: normal; 
+  font-weight: normal; 
+  color: #000000 
+  }
+
+.phplinjenummer 
+{ color:#000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #33CC33; 
+  font-weight: normal;
+  
+  }
+
+.phpkodeboks 
+{ border-style: solid; 
+  border-top-width: thin; 
+  border-right-width: thin; 
+  border-bottom-width: thin; 
+  border-left-width: thin; 
+  width: auto; 
+  background-color: #CCCCCC; 
+  line-height: 20px;
+  font-weight:normal;
+  font-size:1.0em;
+  }
+
+.phpkodeboks p 
+{
+  padding-top:0em;
+  padding-bottom:0em;
+  margin-bottom:0em;
+  margin-top:0em;
+  }
+
+
+/*
+   stiler for å forklare løkker
+   */
+.initialisering 
+
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #C2C200; 
+  font-weight: bold 
+  }
+
+.fortsettelsesbet 
+{ 
+  color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #92C200; 
+  font-weight: bold 
+  }
+.avansement 
+{ color: #000000; 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 1.1em ; 
+  background-color: #00C2C2; 
+  font-weight: bold 
+  }
+
+pre.linenumbers {
+	margin:0;
+	padding-left:25px;
+	background: url(linenumbers-12-14.gif) top left no-repeat;
+	font-size:12px;
+	line-height:13.5px;
+	}
+.formkodevisning {
+background-color:#cccc00
+}
+.malprogvisning {
+background-color:#ffcccc
+}
+.formbildevisning{
+background-color:#ced6cd
+}

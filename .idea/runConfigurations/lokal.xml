@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="lokal" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="localhost">
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" />
+    </method>
+  </configuration>
+</component>

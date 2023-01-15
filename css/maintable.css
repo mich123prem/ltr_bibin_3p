@@ -1,0 +1,30 @@
+/*Styling table*/
+/*table{width:100%;}*/
+
+
+table {
+    border: medium solid;
+    border-collapse: collapse;
+    width: 10em;}
+table {
+
+}
+table tr td{
+    text-align: left;
+}
+table
+{
+    border: outset 3px /*double*/ black;
+    border-collapse: collapse;
+    border-spacing: 5pt ;
+}
+td
+{
+    border: inset 1pt;
+    text-align: center;
+}
+th
+{
+    border: inset 1pt ;
+    font-size: 1.0em;
+}

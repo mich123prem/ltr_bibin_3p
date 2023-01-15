@@ -1,0 +1,31 @@
+/*SPESIELLE STILER*/
+
+.ordlistelenke
+{
+  font-size: 1em; font-style: normal; font-weight: bold; color: #009900
+}
+.ordlistelenke a 
+{color:inherit; font-style:inherit; }
+ .blokk{
+ display:block;
+ }
+ .omriss{
+ border-width: thin;
+ }
+ .hoyreflyt{
+ float:right;
+ 
+ }
+ .inline {
+ display:inline;
+ }
+
+.rosa{
+	background-color:#CC66CC;
+}
+.gul{
+	background-color:#CCCC99
+}
+.graa{
+	background-color:#999999
+}

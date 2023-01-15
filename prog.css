@@ -1,0 +1,475 @@
+@import url(css/spesstil.css);
+@import url(css/karformat.css);
+@import url(css/phpprog.css);
+@import url(css/phputskrift.css);
+@import url(css/db_output.css);
+@import url(css/htmlkoding.css);
+@import url(css/programvisning.css);
+@import url(css/oppgavefasit.css);
+@import url(css/erdiag.css);
+
+body 
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif, monospace;
+  font-size: 15px; 
+  /* line-height: 20px; */
+
+  }
+H1 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 2.5em;
+  line-height: 1em;
+  }
+
+H2 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 2em;
+  margin-top:1.5em;
+  }
+
+H3 
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 1.8em;
+	font-style: italic;
+  }
+
+H4 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 1.5em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+button.displayed{
+    display:block;
+}
+button.undisplayed{
+    display:none;
+}
+
+td.displayed{
+    border-width:inherit;
+}
+td.undisplayed{
+    border-width:0px;
+}
+th.displayed{
+    border-width:inherit;
+}
+th.undisplayed{
+    border-width:0px;
+}
+.enlinje {white-space: nowrap;}
+table {
+    border: medium solid;
+    border-collapse: collapse;
+    /*width: 10em;*/
+    /*width:100%;*/
+}
+
+table #presentasjon{
+    table-layout:fixed;
+}
+
+table #vurdering {
+    width:25%;
+    background-color: #00FF00;
+}
+td.infocolumn{
+    width:25%;
+}
+table tr td{
+    text-align: left;
+}
+
+td.innhold{
+    width:25em;
+}
+td.nesteforrige{
+    width:15em;
+}
+th.innhold{
+    width:20em;
+}
+th.nesteforrige{
+    width:15em;
+}
+
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+	list-style-type: none;
+}
+table.nolineTable {
+    margin-left:auto;
+	margin-right:auto;
+	border-width:0;
+	padding:22px;
+	
+}
+table.nolineTable tr{
+		border-width:0;
+
+}
+table.nolineTable td{
+		border-width:0;
+		padding:10px;
+
+}
+
+table.gronn td{
+  background-color: green;
+}
+/*.svart
+{
+#background-color:#000000;
+background-image:url(svart.png);
+background-size:cover;
+background-repeat:repeat;
+color:#FFFFFF;
+display:inline;
+}*/
+.topp{
+/*top:-1px;*/
+}
+button {
+    width:100%;
+    height:100px;
+    padding:10%;
+
+}
+.inline{
+
+display:inline;}
+.venstre{
+float:left;
+
+/*border-color:#CC00CC;
+border-width:thick;
+border-collapse:separate;
+border-style:solid*/
+}
+.venstre1{
+left: 1.5em;
+}
+
+.venstre2{
+position:relative;
+left: 1.5em;
+float:left;
+}
+.hoyre2{
+position:relative;
+left: -2em;
+float:right;
+}
+.svart{
+background-color: black;
+padding-top: 0.1em;
+padding-bottom: 0.1em;
+
+}
+.svart a:link
+{
+color:#FFFFFF;
+}
+.svart a:visited
+{
+color:#99FF00
+}
+.doktittel 
+{
+color:#FFFFFF;
+
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 2.5em;
+  }
+.oppgtittel 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 1.8em;
+  line-height: 1.5em;
+  }
+.tittel
+{
+  font-family:Geneva, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:2.5em;
+  } 
+
+ul.bigul li{
+	font-size : 1.8em;
+}
+ul.bigbigul li{
+	font-size : 2.0em;
+}
+ul.bigbigbigul li{
+	font-size : 2.4em;
+}
+ul li 
+{
+	font-size : 1.6em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	line-height: 1.4em;
+  }
+
+ul ul li		
+{
+  font-size : 1.0em;
+  margin-bottom:0.5em;
+  margin-top:0.5em; 
+  line-height:1.4em;  
+  }
+ul ul ul li		
+{
+	font-size : 1em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	line-height: 1.1em;
+  }
+ul ol li 
+{
+  font-size : 1.0em;
+  margin-bottom:0.5em;
+  margin-top:0.5em; 
+  line-height:1.4em;  
+  }
+p 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.4em
+}
+
+/*img {
+	border: 0;
+}*/
+ img{
+display: block;
+	text-align: center;
+	margin: 0 auto;
+	} 
+.hang{
+	text-indent: -3em; margin-left: 3em;
+}
+
+@media print
+{
+}
+
+section{
+	border-style:solid;
+	border-color:black;
+	border-width:thin;
+	
+	}
+
+.vanlig 
+{    	font-family: Garamond, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  }
+.vanlig li{
+list-style-type:circle;
+}
+.nobull 
+{
+list-style-image: none;
+font-size: 2em;
+font-weight:bold;
+}
+/*th{
+background-color:#FF3300;
+}*/
+
+.orange{
+background-color:#FF3300;
+}
+.blaa{
+background-color:#33CCCC;
+}
+table
+{
+  border: outset 3px /*double*/ black;
+  border-collapse: collapse;
+  border-spacing: 5pt ;
+}
+table.warning{
+    border-color:red;
+}
+td
+{
+	border: inset 1pt;
+	text-align: center;
+
+}
+
+td p
+{
+  padding-top:0em;
+  padding-bottom:0em;
+  margin-bottom:0em;
+  margin-top:0em;
+  }
+
+div.storpadding{
+    padding:5%;
+    border: outset 3px /*double*/ black;
+
+}
+td.hvit div{
+	display:none;
+}
+
+th
+{
+  border: inset 1pt ;
+  font-size: 1.0em;
+}
+
+.eksempel 
+{
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 1.2em;
+  text-decoration: underline;
+  }
+.example:before
+{
+  content:"Eksempel " counter(eksempnr, decimal) ":";
+  counter-increment: eksempnr 1 ;
+  display:inline;
+  }
+
+.sideskift 
+{ 
+	PAGE-BREAK-AFTER: always ;
+}
+.sideskiftb 
+{ 
+	PAGE-BREAK-BEFORE: always; 
+}
+.gulbakgrunn{
+background-color:#FFCC00
+}
+.bilde
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+  }
+.billedtekst
+{
+text-align:center;
+font-size:0.5em;
+}  
+.sentrer
+{
+/*text-align:center*/
+    margin-left: auto;
+    margin-right: auto;
+}
+/*SKJULE TEKSTER I TABELLCELLER*/
+
+.skjul 
+{  display: none}
+
+
+/*FORMINSKE*/
+.skvis 
+{line-height:1.0em;}
+
+.kommentarer
+{
+
+  display:none;
+
+  }
+
+/*PLUS, MINUS for referansebeskrivelses*/
+
+.plus
+{}
+.minus
+{}
+.plus li
+{
+ /* list-style-image:url(plus.png);*/
+  }
+.minus li
+{
+/*  list-style-image:url(minus.png);*/
+  }
+
+.formdisplay{
+background-color:#ced6cd;
+border-width:0px;
+border-color:#000000;
+}
+.formdisplay form{
+width:auto;
+}
+.formdisplay input{display: inline}
+.formkode{
+background-color:#cccc00;
+vertical-align:top;
+
+}
+.phpaction{
+background-color:#ffcccc;
+}
+.graaform {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #ced6cd;
+	width: 15em;
+}
+.senket{
+	vertical-align: text-bottom;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 0.8em;
+}
+.hevet{
+	vertical-align: super;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 0.8em;
+}
+.tabellalias {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 1em; 
+  font-style: normal; 
+  font-weight: bold; 
+  color: #0066FF ;
+  line-height: 1.3em;
+  text-decoration:underline;
+ }.gjennomstrek {
+	text-decoration: line-through;
+}
+.lenkebilde {
+	height: 28px;
+	width: 60px;
+}
+.overline {
+	text-decoration: overline;
+	font-style: italic;
+}
+.subscript {
+	vertical-align: sub;
+}
+input.vurderingsradio {
+    border: 0px;
+    width: 100%;
+    height: 2.5em;
+}
+.width100{
+    width:80%;
+}
+.radiotd {
+    padding: 5% 0;
+    text-align:left;
+    display:inline;
+
+}
