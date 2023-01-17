@@ -23,8 +23,8 @@ TBL;
     $thd .= <<<TBL
     
    <!-- <th>&nbsp;&nbsp;&nbsp;Søk&nbsp;&nbsp;&nbsp;</th>-->
-    <th class="innhold">Omslagbilde </th>
-    <th class="innhold">Bok-info</th>
+    <th class="innhold">Omslagsbilde </th>
+    <th class="innhold">Kilde-info</th>
     <th class="innhold">Din vurdering</th>
     <th class="nesteforrige">Neste</th>
  </tr>   
@@ -194,7 +194,7 @@ PRVBTN;
                 <label>
               <input class="vurderingsradio" type="radio" name="rn_${qid}_${docid}_$user" value="-1" id="id_3" {$arrayOfChecked[3]}/>
               <!-- 
-               --> Vet ikke!!
+               --> Vet ikke
                 </label>
             </td>
            </tr>
@@ -248,15 +248,18 @@ TBL;
             $tbl .= <<<TBL
         </form >
         <div class="inline storpadding venstre" > <a href="index.php?user={$_SESSION['user']}">Tilbake til dine søk</a>  </div>
+TBL;
+        $tbl.= <<<DUMMY
         <div class="inline storpadding hoyreflyt">
             <div ><span class="sterk">Ikke relevant</span>: Svarer definitivt ikke på søket </div>
             <!--<div ><span class="sterk">Ikke helt</span> : (Kanhende... ville kanskje sett på den) </div>-->
             <div ><span class="sterk">Delvis relevant</span>: (Kanskje... men ville sikkert sett på den) </div>
             <!--<div ><span class="sterk">Nesten! ...men</span>: (... For eksempel: ville foretrukket et annet format,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en annen bok i samme serie, eller noe sånt. )</div>-->
-            <div > <span class="sterk">Relevant!!</span>: Merk: det kan bli flere som passer like bra ...</div>
+            <div > <span class="sterk">Relevant!!</span>:Ett av dine førstevalg blant flere relevante kilder. Merk: det kan bli flere som passer like bra ...</div>
         </div>
-	
+DUMMY;
+            $tbl .= <<<TBL
 	</div>
 		
 TBL;

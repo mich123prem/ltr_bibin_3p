@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82c3ad10-e13e-4c35-9941-824a6b2a6455" name="Default Changelist" comment="First from PHPSTORM">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ltr_bibin_4p.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.user.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call_func_row.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/db_output.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/erdiag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/htmlkoding.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/karformat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/linenumbers-12-14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/maintable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/oppgavefasit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/phpprog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/phputskrift.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/programvisning.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/spesstil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elastic.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elastic/query.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elastic/settings.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/endform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/form_row.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/screen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memcache.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memcache/memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/document.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/qd.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/qry.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/users.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sendQueryGetHits.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pub_work.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updateRelevance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form_row.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/form_row.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,22 +72,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "C:/Users/michaelp/sites/ltr_bibin_3p/.git/refs/remotes/origin/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/michaelp/sites/ltr_bibin_3p/.git/refs/remotes/origin/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\michaelp\sites\ltr_bibin_4p" />
@@ -266,6 +219,7 @@
       <workItem from="1673350436849" duration="7977000" />
       <workItem from="1673427872288" duration="7038000" />
       <workItem from="1673788560976" duration="2710000" />
+      <workItem from="1673961017945" duration="2167000" />
     </task>
     <servers />
   </component>
