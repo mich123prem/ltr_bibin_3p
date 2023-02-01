@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82c3ad10-e13e-4c35-9941-824a6b2a6455" name="Default Changelist" comment="First from PHPSTORM">
+      <change afterPath="$PROJECT_DIR$/elastic/agig.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/spesstil.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/spesstil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic/query.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/elastic/query.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/form_row.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/form_row.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog.css" beforeDir="false" afterPath="$PROJECT_DIR$/prog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendQueryGetHits.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendQueryGetHits.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +226,13 @@
       <workItem from="1673427872288" duration="7038000" />
       <workItem from="1673788560976" duration="2710000" />
       <workItem from="1673961017945" duration="2167000" />
+      <workItem from="1674206739621" duration="594000" />
+      <workItem from="1674407776176" duration="7643000" />
+      <workItem from="1674560128049" duration="8225000" />
+      <workItem from="1674638039104" duration="7277000" />
+      <workItem from="1675066952282" duration="4020000" />
+      <workItem from="1675172127951" duration="3167000" />
+      <workItem from="1675244199952" duration="1980000" />
     </task>
     <servers />
   </component>
@@ -303,7 +316,7 @@
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/elastic/query.inc.php</url>
-          <line>1</line>
+          <line>2</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint type="php">
@@ -333,13 +346,8 @@
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/index.php</url>
-          <line>25</line>
+          <line>27</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/sendQueryGetHits.php</url>
-          <line>20</line>
-          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/call_func_row.php</url>
@@ -358,23 +366,23 @@
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
-          <line>135</line>
+          <line>149</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
-          <line>103</line>
+          <line>117</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/html/form_row.inc.php</url>
-          <line>217</line>
+          <line>256</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/html/screen.php</url>
-          <line>21</line>
-          <option name="timeStamp" value="82" />
+          <url>file://$PROJECT_DIR$/sendQueryGetHits.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

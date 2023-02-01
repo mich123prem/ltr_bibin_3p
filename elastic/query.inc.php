@@ -1,4 +1,5 @@
 <?php
+include_once "agig.inc.php";
 if (!isset($_SESSION))
 	session_start();
 function getQuery( $queryTerm = "charlotte brontë", $nr_hits=20 ) {
@@ -19,14 +20,14 @@ QRY;
     (" (?:[^"\\\\] | \\\\\\\\ | \\\\")*+ ") | \# [^\v]*+ | // [^\v]*+ | /\* .*? \*/
   ~xs', '$1', $query );
 }
-function sendQuery($query){
+function sendQuery($queryString){
   $curl = "http://localhost:9200/" . "publication" . "/_search";
   $ch = curl_init();
   // set URL and other appropriate options
   //For å få resultatet i retur 
   curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
   curl_setopt( $ch, CURLOPT_CUSTOMREQUEST, "POST" );
-  curl_setopt( $ch, CURLOPT_POSTFIELDS, $query );
+  curl_setopt( $ch, CURLOPT_POSTFIELDS, $queryString );
   curl_setopt( $ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/json' ) );
   curl_setopt( $ch, CURLOPT_URL, $curl );
   $ret=curl_exec( $ch );

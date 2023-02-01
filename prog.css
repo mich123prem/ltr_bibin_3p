@@ -43,7 +43,14 @@ H4
   font-weight: bolder;
   text-decoration: underline;
 }
-
+H5
+{
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-size : 1.2em;
+    font-weight: bolder;
+ /*   margin-top:10%;*/
+ /*   margin-bottom: 10%;*/
+}
 button.displayed{
     display:block;
 }
@@ -83,7 +90,7 @@ td.infocolumn{
     width:25%;
 }
 table tr td{
-    text-align: left;
+/*   text-align: center;*/
 }
 
 td.innhold{
@@ -372,7 +379,12 @@ font-size:0.5em;
     margin-right: auto;
 }
 /*SKJULE TEKSTER I TABELLCELLER*/
-
+label {
+    text-align: left;
+}
+input[type="radio"]{
+    text-align: left;
+}
 .skjul 
 {  display: none}
 
@@ -463,6 +475,7 @@ input.vurderingsradio {
     border: 0px;
     width: 100%;
     height: 2.5em;
+
 }
 .width100{
     width:80%;
@@ -472,4 +485,7 @@ input.vurderingsradio {
     text-align:left;
     display:inline;
 
+}
+.initial {
+    all: initial;
 }

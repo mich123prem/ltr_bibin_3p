@@ -13,8 +13,8 @@ if (!isset($_GET['fromDropDown']))
 $qid=$_GET['fromDropDown'];
 $_SESSION['qid']=$qid;
 $qt=qid2qry($qid);
-$query_json = getQuery( $queryTerm = $qt, $nr_hits = $_SESSION['configs']['hitsPerQuery'] +2);
-
+// $query_json = getQuery( $queryTerm = $qt, $nr_hits = $_SESSION['configs']['hitsPerQuery'] +2);
+$query_json = get_agig_query( $queryTerm = $qt, $nr_hits = $_SESSION['configs']['hitsPerQuery'] +2);
 $json=sendQuery( $query_json );
 $json = preg_replace('/(\'|&#0*39;)/', '', $json);
 $res = json_decode($json , true );

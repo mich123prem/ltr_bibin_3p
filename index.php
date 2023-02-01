@@ -6,6 +6,8 @@
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 if (!isset($_SESSION))
 	session_start();
+
+
 #$_SESSION["user"]=1;
 $_SESSION['configs']=include_once "admin/config.php";
 include_once "html.inc.php";

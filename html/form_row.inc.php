@@ -59,10 +59,21 @@ function func_row($i,/*Doc ordinal-number current qid (eks. 0-19 for 20 books pr
        /*var_dump($hit);
         die();*/
 
-
+   /*
+    *  METADATA TO BE PRESENTED
+    */
     $description = "Ikke oppgitt";
     if (isset($hit->work->genres))
         $description = join(";", $hit->work->genres);
+
+    $origTitle = "Ikke oppgitt";
+    if (isset($hit->work->mainTitle))
+        $origTitle= $hit->work->mainTitle;//join(";", $hit->work->mainTitle);
+
+    $series = "Ikke oppgitt";
+    if (isset($hit->series))
+        $series= join(";", $hit->series);
+
 
     $title = "no title";
     if (isset($hit->fullTitle))
@@ -71,12 +82,15 @@ function func_row($i,/*Doc ordinal-number current qid (eks. 0-19 for 20 books pr
     $author = "no author";
     if (isset($hit->author))
         $author = join(";", $hit->author);
+
     $format = "Ikke oppgitt";
     if (isset($hit->mediaType))
         $format = $hit->mediaType;
+
     $audiences = "Ikke oppgitt";
     if (isset($hit->work->audiences))
         $audiences = join(";", $hit->work->audiences);
+
     $languages = "Ikke oppgitt";
     if (isset($hit->languages))
         $languages = join(";", $hit->languages);
@@ -150,47 +164,72 @@ PRVBTN;
 
 	<!--<td style="padding:10px;white-space:nowrap">"$query"</td>-->
     <td class="innhold">$image</td>
-	<td class="infocolumn innhold"><span class="sterk">Tittel:</span> $title<br/>
-	    <hr/><span class="sterk">Forfatter:</span>$author<br/>
+	<td class="infocolumn innhold">
+	    <span class="sterk">Tittel:</span> 
+            $title<br/>
 	    <hr/>
-	        <span class="sterk">Sjanger</span>:$description
+	    <span class="sterk">Forfatter:</span>
+            $author<br/>
+	    <hr/>
+	    <span class="sterk">Sjanger</span>:
+            $description
 	    <hr/>    
-	        <span class="sterk">Målgruppe</span>:$audiences
-	        <br/>
+	    <span class="sterk">Originaltittel</span>:
+            $origTitle
+	    <hr/>    
+	    
+	    <span class="sterk">Målgruppe</span>:
+            $audiences
+	    <br/>
 	    <hr/>       
-	        <span class="sterk">Språk</span>:$languages
-	        <br/>
-	    <hr/><span class="sterk">Format</span>:$format
-	    <hr/><span class="sterk">utgitt</span>:$publicationYear
+	    <span class="sterk">Språk</span>:
+            $languages
+	    <br/>
+	    <hr/>
+	    <span class="sterk">Format</span>:
+            $format
+	    <hr/>
+	    <span class="sterk">utgitt</span>:
+            $publicationYear
+         <hr/>
+	    <span class="sterk">Serie</span>:
+            $series
+	 
 	 </td>
 	 <td class="innhold"><!-- radioknapper -->
+        <h5>Søk:"$query"</h5>
           <table class="sentrer$relTableStyle width100"  >
           <tr>
-            <td >
-                <label>
-              <input class="vurderingsradio" type="radio"  name="rn_${qid}_${docid}_$user" value="0" id="id_0" {$arrayOfChecked[0]}/>
-              <!--non_relevant--> Ikke relevant
-                </label>
-            </td>
+            <td class="lysegronn">
+                <label  data-title="Godt samsvar mellom søketerm og kilde-info. Bør være blant de øverste resultatene">
+              <input class="vurderingsradio" type="radio" name="rn_${qid}_${docid}_$user" value="2" id="id_2" {$arrayOfChecked[2]}/>
+              <!-- highly_relevant --> Veldig relevant
+                </label></td>
           </tr>
-           <tr>
-            <td >
-                <label>
-              <input class="vurderingsradio" type="radio"  name="rn_${qid}_${docid}_$user" value="1" id="id_1" {$arrayOfChecked[1]}/>
+          
+          <tr > 
+            <td class="guloransje">
+                <label data-title="Ville sett på den, \n men skal ikke blant de øverste resultatene" >
+              <input  class="vurderingsradio" type="radio"  name="rn_${qid}_${docid}_$user" value="1" id="id_1" {$arrayOfChecked[1]}/>
               <!--non_relevant--> Delvis relevant
                 </label>
             </td>
           </tr>
         
-          <tr>
-            <td>
-                <label>
-              <input class="vurderingsradio" type="radio" name="rn_${qid}_${docid}_$user" value="2" id="id_2" {$arrayOfChecked[2]}/>
-              <!-- highly_relevant --> Noe sånt, ja!!
-                </label></td>
-          </tr>
+         <tr>
+            <td class="ikkeroed">
+            
+              <label  data-title="Svarer definitivt ikke på søket">  
+              <input class="vurderingsradio" type="radio"  name="rn_${qid}_${docid}_$user" value="0" id="id_nr_1_1" {$arrayOfChecked[0]}/>
+              
+              <!--non_relevant--> Ikke relevant
+                </label>
+               
+            </td>
+          </tr >
+          
            <tr>
-            <td>
+            <td class="vetikkegraa">
                 <label>
               <input class="vurderingsradio" type="radio" name="rn_${qid}_${docid}_$user" value="-1" id="id_3" {$arrayOfChecked[3]}/>
               <!-- 
@@ -249,16 +288,7 @@ TBL;
         </form >
         <div class="inline storpadding venstre" > <a href="index.php?user={$_SESSION['user']}">Tilbake til dine søk</a>  </div>
 TBL;
-        $tbl.= <<<DUMMY
-        <div class="inline storpadding hoyreflyt">
-            <div ><span class="sterk">Ikke relevant</span>: Svarer definitivt ikke på søket </div>
-            <!--<div ><span class="sterk">Ikke helt</span> : (Kanhende... ville kanskje sett på den) </div>-->
-            <div ><span class="sterk">Delvis relevant</span>: (Kanskje... men ville sikkert sett på den) </div>
-            <!--<div ><span class="sterk">Nesten! ...men</span>: (... For eksempel: ville foretrukket et annet format,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en annen bok i samme serie, eller noe sånt. )</div>-->
-            <div > <span class="sterk">Relevant!!</span>:Ett av dine førstevalg blant flere relevante kilder. Merk: det kan bli flere som passer like bra ...</div>
-        </div>
-DUMMY;
+
             $tbl .= <<<TBL
 	</div>
 		
