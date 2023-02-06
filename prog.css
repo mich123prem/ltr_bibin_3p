@@ -149,6 +149,7 @@ button {
     padding:10%;
     background-color: #33CCCC;
     font-weight: bold;
+    text-decoration: underline;
     border-color: #0066FF;
     border-width: medium;
 
