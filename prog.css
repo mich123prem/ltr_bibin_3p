@@ -147,6 +147,10 @@ button {
     width:100%;
     height:100px;
     padding:10%;
+    background-color: #33CCCC;
+    font-weight: bold;
+    border-color: #0066FF;
+    border-width: medium;
 
 }
 .inline{

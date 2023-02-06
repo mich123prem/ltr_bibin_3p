@@ -55,13 +55,14 @@
  position: relative;
 }
 .lysegronn{
- background-color:#7fff00;
+ background-color:#92D200;
+  /*7fff00*/
 }
 .guloransje{
- background-color: #ff8c00;
+ background-color: #ddAc00;
 }
 .ikkeroed{
- background-color: red;
+ background-color: #CC0000;
 }
 .vetikkegraa{
  background-color: grey;
