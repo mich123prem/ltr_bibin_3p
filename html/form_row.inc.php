@@ -129,7 +129,7 @@ IMG;
 
 
         print <<<QUERY
-        <h2>Søk:"$query"</h2>
+        <h2>Hvor relevante er mediene nedenfor i forhold til søket <u>"$query"</u>?</h2>
 QUERY;
 
         $tbl .= <<<TBL
