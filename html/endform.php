@@ -1,4 +1,4 @@
-<h3><?php print(nameByID($_GET['user']))?>'s SØK</h3>
+<h3><?php print(nameByID($_GET['user']))?>s SØK</h3>
 <?php $_SESSION['firstInScreen']=0?>
 <!-- USE is_array to find if wrong password -->
 
