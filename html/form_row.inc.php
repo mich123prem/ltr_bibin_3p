@@ -82,7 +82,12 @@ function func_row($i,/*Doc ordinal-number current qid (eks. 0-19 for 20 books pr
     $author = "no author";
     if (isset($hit->author))
         $author = join(";", $hit->author);
-
+    elseif (isset($hit->agents)){
+        if (isset($hit->agents->contributors)){
+            $val=$hit->agents->contributors[0];
+            $author=$val;//explode("(", $val)[0];
+        }
+    } else{}
     $format = "Ikke oppgitt";
     if (isset($hit->mediaType))
         $format = $hit->mediaType;
