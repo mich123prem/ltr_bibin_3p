@@ -17,11 +17,11 @@
   font-style:italic; 
 
   }
-
+/*
 select option {
     -webkit-appearance: none;
 
-}
+}*/
 .red 
 { font-family: Verdanda, Arial, Helvetica, sans-serif; font-size: 1.0em; font-weight: bolder; color: #FF0000; font-style: normal}
 .black
