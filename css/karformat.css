@@ -23,7 +23,8 @@ select option {
 
 }*/
 .red 
-{ font-family: Verdanda, Arial, Helvetica, sans-serif; font-size: 1.0em; font-weight: bolder; color: #FF0000; font-style: normal}
+{ font-family: Verdanda, Arial, Helvetica, sans-serif; background-color: #F9CB9C;
+    font-size: 1.0em; font-weight: bolder; color: #FF0000; font-style: normal}
 .black
 { font-family: Verdanda, Arial, Helvetica, sans-serif; font-size: 1.0em; font-weight: bolder; color: #000000; font-style: normal}
 .groennCopy 
