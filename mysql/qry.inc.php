@@ -103,17 +103,22 @@ SQLEND;
         die("error in $sql: " . mysqli_error($_SESSION['dblink']));
     }
 	$opts="";
+
 	while ( !is_null($row) ){
+        $seenNotSeen=" ";
 		$colorclass="black";
-		if ( hasInteractedWith($user, $row['id']) )
-			$colorclass="red";
+		if ( hasInteractedWith($user, $row['id']) ) {
+            $colorclass = "red";
+            $seenNotSeen = " [*]";
+        }
 		$opts.=<<<OPT
 	<option 
 		class="$colorclass"	
 		value="{$row['id']}">
-		{$row["text"]}
+		{$row["text"]} $seenNotSeen
 	</option> 		
 OPT;
+
 		$row = mysqli_fetch_assoc($result);
 	}
 	return $opts;

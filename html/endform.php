@@ -3,7 +3,7 @@
 <!-- USE is_array to find if wrong password -->
 
 <p>Velg ett av søkene nedenfor.<br/>
-    Søk med <span class="red">Rød skrift</span>
+    Søk med <span class="red">Rød skrift</span> og / eller etterfulgt av symbolet <b>[*]</b>
     har du allerede sett på, men kanskje ikke avsluttet eller ønsker å se over igjen.</p>
 <form action="sendQueryGetHits.php">
     <!--
